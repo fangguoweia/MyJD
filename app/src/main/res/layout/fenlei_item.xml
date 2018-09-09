@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/fenlei_item_sdv"
+        android:layout_height="65dp"
+        android:layout_width="65dp"
+        fresco:placeholderImage="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:text="ssssss"
+        android:id="@+id/fenlei_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
